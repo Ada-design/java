@@ -4,6 +4,7 @@ spring:
   application:
     name: stock-service
   cloud:
+    # nacos注册服务
     nacos:
       server-addr: localhost:8848
       discovery:
