@@ -1,0 +1,16 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: stock-service
+  cloud:
+    # spring-cloud兼容性校验关闭
+    compatibility-verifier:
+      enabled: false
+    # nacos注册服务
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        username: nacos
+        password: nacos
+        namespace: public
